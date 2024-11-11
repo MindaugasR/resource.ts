@@ -1,4 +1,4 @@
-export declare class Resource<T, R> {
+export default class Resource<T, R> {
   protected data: T | T[];
 
   constructor(data: T | T[]);
