@@ -1,12 +1,19 @@
 {
   "name": "resource.ts",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Mindaugas Rimkus",
   "module": "src/Resource.ts",
   "main": "dist/Resource.js",
   "types": "src/index.d.ts",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MindaugasR/resource.ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MindaugasR/resource.ts/issues"
+  },
   "scripts": {
     "example": "bun ./src/example",
     "build": "bun build ./src/Resource.ts --outdir ./dist",
