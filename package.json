@@ -16,7 +16,7 @@
   },
   "scripts": {
     "example": "bun ./src/example",
-    "build": "bun build ./src/Resource.ts --outdir ./dist",
+    "build": "bun build ./src/Resource.ts --outdir ./dist --minify",
     "test": "bun test"
   },
   "devDependencies": {
@@ -30,6 +30,7 @@
   },
   "exports": {
     ".": {
+      "types": "./src/index.d.ts",
       "import": "./dist/Resource.js"
     }
   }
