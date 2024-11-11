@@ -8,6 +8,7 @@
   "types": "src/index.d.ts",
   "type": "module",
   "scripts": {
+    "example": "bun ./src/example",
     "build": "bun build ./src/Resource.ts --outdir ./dist",
     "test": "bun test"
   },
