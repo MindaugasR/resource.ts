@@ -1,7 +1,7 @@
 {
   "name": "resource.ts",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Mindaugas Rimkus",
   "module": "src/Resource.ts",
   "main": "dist/Resource.js",
